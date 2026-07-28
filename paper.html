@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Paper | Aqsa Afzal</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    line-height:1.8;
+    background:#f5f5f5;
+    color:#333;
+}
+.container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+h1,h2{
+    color:#0d47a1;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+table,th,td{
+    border:1px solid #ccc;
+}
+th,td{
+    padding:10px;
+    text-align:left;
+}
+footer{
+    margin-top:40px;
+    text-align:center;
+    color:#666;
+}
+a{
+    color:#0d47a1;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Improving Content Performance Using Machine Learning: A Study on the FlyRank ML Internship Dataset</h1>
+
+<h2>Abstract</h2>
+
+<p>
+This project investigates how machine learning can improve website content recommendations using the FlyRank ML Internship dataset. A rule-based baseline and a Random Forest model were developed and evaluated using the same validation strategy. The machine learning model achieved better prediction performance than the baseline while identifying the most important content performance features. The analysis focuses on anonymized public-safe data and follows reproducible machine learning practices. The results suggest that machine learning can assist content teams in prioritizing website improvements more effectively.
+</p>
+
+<h2>Introduction</h2>
+
+<p>
+Website content plays a major role in attracting users through search engines. However, deciding which pages should be refreshed or improved is often a manual process. This project explores whether machine learning can automatically prioritize content improvement opportunities using historical engagement and search performance metrics.
+</p>
+
+<h2>Data</h2>
+
+<ul>
+<li>Dataset: FlyRank ML Internship Dataset (Anonymized)</li>
+<li>Rows: Approximately 30,000</li>
+<li>Features: CTR, Engagement Rate, Word Count, Average Position, Content Age, Sessions and other public-safe metrics.</li>
+<li>No private client information or URLs were used.</li>
+</ul>
+
+<h2>Methodology</h2>
+
+<ul>
+<li>Performed data cleaning and preprocessing.</li>
+<li>Created a rule-based baseline model.</li>
+<li>Trained a Random Forest classifier.</li>
+<li>Used train/test split for evaluation.</li>
+<li>Checked for feature leakage.</li>
+<li>Compared both approaches using the same validation process.</li>
+</ul>
+
+<h2>Results</h2>
+
+<table>
+<tr>
+<th>Method</th>
+<th>Observation</th>
+</tr>
+
+<tr>
+<td>Rule-Based Baseline</td>
+<td>Provides simple prioritization using predefined rules.</td>
+</tr>
+
+<tr>
+<td>Random Forest</td>
+<td>Produced stronger predictive performance than the baseline.</td>
+</tr>
+
+<tr>
+<td>Important Features</td>
+<td>CTR, Engagement Rate, Average Position and Content Age.</td>
+</tr>
+
+</table>
+
+<p>
+The machine learning model demonstrated improved predictive capability while maintaining transparency through feature importance analysis.
+</p>
+
+<h2>Limitations</h2>
+
+<ul>
+<li>The dataset is anonymized.</li>
+<li>Results are based on internship data only.</li>
+<li>Different websites may require different models.</li>
+<li>Future work could evaluate additional algorithms.</li>
+</ul>
+
+<h2>Ranked Recommendations</h2>
+
+<ol>
+<li>Refresh stale pages with low CTR.</li>
+<li>Improve page titles and meta descriptions.</li>
+<li>Monitor high-performing content.</li>
+<li>Update aging articles regularly.</li>
+<li>Improve engagement on low-performing pages.</li>
+</ol>
+
+<h2>Reproducibility</h2>
+
+<p>
+GitHub Repository:
+<a href="https://github.com/aqsaafzal483-cyber/aqsa-portfolio" target="_blank">
+https://github.com/aqsaafzal483-cyber/aqsa-portfolio
+</a>
+</p>
+
+<p>
+This project includes notebooks, source code, and documentation required to reproduce the analysis.
+</p>
+
+<h2>Acknowledgments</h2>
+
+<p>
+This research was built on the <strong>FlyRank ML Internship Dataset</strong>. Special thanks to FlyRank for providing an anonymized educational dataset for learning machine learning workflows.
+</p>
+
+<p>
+Data Credit:
+<a href="https://flyrank.ai" target="_blank">https://flyrank.ai</a>
+</p>
+
+<footer>
+
+<p>© 2026 Aqsa Afzal | AI/ML Portfolio</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
